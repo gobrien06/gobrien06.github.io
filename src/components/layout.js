@@ -34,16 +34,19 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © Gabrielle O'Brien {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      
       </div>
     </>
   )
 }
 
+/*
+  <footer>
+          © Gabrielle O'Brien {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
+*/
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }

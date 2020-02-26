@@ -1,0 +1,8 @@
+.neucard{
+    box-shadow: 0.5vh 0.5vh 0.5vh #000;
+    min-height:50vh;
+    margin-top:5vh;
+    padding:4vh;
+    background-color: #2C2F33 !important;
+    color:#FFFF;
+}

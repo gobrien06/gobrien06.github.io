@@ -5,13 +5,13 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: '#FFFF'      ,
+      background: '#2C2F33',
       marginBottom: `1.3rem`,
-      boxShadow: '0 0 2vh #5555',
+      //boxShadow: '0 0 2vh #5555',
     }}
   >
     <hr style={{ 
-      background: '#2F78D5',
+      background: '#5B53B9',
       height:'.4rem',
     }} />
     <div
@@ -24,29 +24,29 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `black`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
         </h1>
-
-        <h3 style={{ float:`right`, marginRight:`1.5vh`, display:`inline`, fontWeight:`400`,}}>
-        <Link
-          to="/goals"
+        <a
+          href="https://github.com/gobrien06"
           style={{
-            color: `black`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
           }}
         >
-          Goals
-        </Link>
+          <img src="../src/images/GitHub-Mark-Light-64px.png" />
+        </a>
+
+        <h3 style={{ float:`right`, marginRight:`1.5vh`, display:`inline`, fontWeight:`300`,}}>
         <Link
           to="/projects"
           style={{
-            color: `black`,
+            color: `white`,
             textDecoration: `none`,
           }}
         >
@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/designs"
           style={{
-            color: `black`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
           }}
@@ -63,14 +63,14 @@ const Header = ({ siteTitle }) => (
           Designs
         </Link>
         <Link
-          to="/github"
+          to="/goals"
           style={{
-            color: `black`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
           }}
         >
-          GitHub
+          Goals
         </Link>
       </h3>
     </div>
