@@ -4,10 +4,16 @@ import './contentcard.css';
 
 const ContentCard = ({title, content, url})=>(
     <Card className="neucard">
-    <h3>
+    <h2 style={{
+        fontWeight:`400`,
+        marginBottom:`1.5rem`,
+    }}>
     {title}
-    </h3>
-    <CardImg top width="50%" src={url} alt="projectimg"/>
+    </h2>
+    <img top width="500vh" style={{
+        margin:`auto`,
+        marginBottom:`1.5rem`,
+    }} src={url} alt="projectimg"/>
     <CardBody>
     {content}
     </CardBody>

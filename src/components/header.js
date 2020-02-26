@@ -6,13 +6,15 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: '#2C2F33',
-      marginBottom: `1.3rem`,
+      boxShadow: `0.5vh 0.5vh 0.8vh #000`,
       //boxShadow: '0 0 2vh #5555',
     }}
   >
     <hr style={{ 
       background: '#5B53B9',
-      height:'.4rem',
+      height:'.3rem',
+      position:'relative',
+      marginTop: `0`,
     }} />
     <div
       style={{
@@ -20,7 +22,7 @@ const Header = ({ siteTitle }) => (
         padding: `0.5rem`,
       }}
     >
-      <h1 style={{ marginLeft: `1.55vh`, display:`inline`, fontWeight:`500`,}}>
+      <h1 style={{ marginLeft: `1.55vh`, display:`inline`, fontWeight:`400`,}}>
         <Link
           to="/"
           style={{
@@ -39,10 +41,10 @@ const Header = ({ siteTitle }) => (
             marginLeft:`1.5vh`,
           }}
         >
-          <img src="../src/images/GitHub-Mark-Light-64px.png" />
+          <img src="./images/GitHub-Mark-Light-64px.png" />
         </a>
 
-        <h3 style={{ float:`right`, marginRight:`1.5vh`, display:`inline`, fontWeight:`300`,}}>
+        <h4 style={{ float:`right`, marginRight:`1.5vh`, display:`inline`, fontWeight:`300`,}}>
         <Link
           to="/projects"
           style={{
@@ -72,7 +74,7 @@ const Header = ({ siteTitle }) => (
         >
           Goals
         </Link>
-      </h3>
+      </h4>
     </div>
   </header>
 )
