@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: '#2C2F33',
-      boxShadow: `0.5vh 0.5vh 0.8vh #000`,
+      //boxShadow: `0.5vh 0.5vh 0.8vh #000`,
       //boxShadow: '0 0 2vh #5555',
     }}
   >
@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         padding: `0.5rem`,
       }}
     >
-      <h1 style={{ marginLeft: `1.55vh`, display:`inline`, fontWeight:`400`,}}>
+      <h1 style={{ marginLeft: `1.55vh`, display:`inline`, fontWeight:`600`,}}>
         <Link
           to="/"
           style={{
@@ -41,7 +41,17 @@ const Header = ({ siteTitle }) => (
             marginLeft:`1.5vh`,
           }}
         >
-          <img src="./images/GitHub-Mark-Light-64px.png" />
+          <img src="/images/GitHub-Mark-Light-64px.png" height="20vh" style={{ marginTop:`1rem`,}}/>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gabrielle-o-580986174/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            marginLeft:`1.5vh`,
+          }}
+        >
+          <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="21.5vh" style={{ marginTop:`1rem`,}}/>
         </a>
 
         <h4 style={{ float:`right`, marginRight:`1.5vh`, display:`inline`, fontWeight:`300`,}}>
@@ -65,15 +75,19 @@ const Header = ({ siteTitle }) => (
           Designs
         </Link>
         <Link
-          to="/goals"
+          to="/contact"
           style={{
             color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
           }}
         >
-          Goals
+          Contact
         </Link>
+        <hr style={{
+         background: '#737982',
+          textDecoration: `none`,
+        }} />
       </h4>
     </div>
   </header>

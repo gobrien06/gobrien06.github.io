@@ -2,13 +2,15 @@
     box-shadow: 0.5vh 0.5vh 0.5vh #000;
     min-height:50vh;
     max-width: 60%;
-    margin-top:8vh;
+    margin-top:2vh;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:10vh;
     padding:4vh;
     padding-left:5vh;
     font-family:Avenir;
     background-color: #2C2F33 !important;
+    border-radius:10px !important;
     color:#FFFF;
 }
 
