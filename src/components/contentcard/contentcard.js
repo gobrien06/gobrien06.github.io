@@ -27,7 +27,9 @@ const ContentCard = ({title, content, type, url})=>{
     }
     else if(type=='project'){
         return(
-            <Card className="neucard">
+            <Card className="projcard" style={{
+                background:`#5B53B9`,
+            }}>
             <h2 style={{
                 fontWeight:`500`,
                 marginBottom:`1.5rem`,
@@ -40,8 +42,11 @@ const ContentCard = ({title, content, type, url})=>{
                 marginBottom:`1.5rem`,
             }} src={url} alt="projectimg"/>
             <CardBody>
+                {content}
             </CardBody>
-            <Button />
+            <Button style={{background:`white`, height:`6vh`, width:`30%`, color:`#2C2F33`, }}>
+                Demo
+            </Button>
             </Card>
         )
     }
