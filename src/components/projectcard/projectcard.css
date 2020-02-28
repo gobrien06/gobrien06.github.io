@@ -1,0 +1,27 @@
+.projcard{
+    box-shadow: 0.5vh 0.5vh 1vh #000;
+    min-height:50vh;
+    max-width: 65%;
+    margin-bottom:10vh;
+    font-family:Avenir;
+    background: linear-gradient(70deg, rgba(91,83,185,1) 0%, rgba(73,73,157,1) 77%);
+    color:#FFFF;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+    
+}
+
+.contain:hover{
+    -webkit-transform:scale(1.02);
+    -webkit-transition:all 0.05s ease-out;
+    -moz-transition:all 0.05s ease-out;
+    transition:all 0.05s ease-out;
+}
+
+
+.projcard img{
+    border-radius:0;
+    box-shadow: 1vh 1vh 3vh #000;
+    float:right;
+}

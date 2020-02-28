@@ -47,16 +47,6 @@ const Header = ({ siteTitle }) => (
           Projects
         </Link>
         <Link
-          to="/designs"
-          style={{
-            color: `gray`,
-            textDecoration: `none`,
-            marginLeft:`1.8vh`,
-          }}
-        >
-          Designs
-        </Link>
-        <Link
           to="/contact"
           style={{
             color: `gray`,

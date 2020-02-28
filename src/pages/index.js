@@ -103,7 +103,7 @@ const IndexPage = () => (
       position:`absolute`,
       fontSize:`3rem`,
     }}>
-      What I do.
+      What I Do.
     </h3>
     </Row>
     

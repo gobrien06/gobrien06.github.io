@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           color:`white`,
           textAlign:`right`,
           margin:`0`,
-          paddingRight:`1.6vh`,
+          paddingRight:`4vh`,
         }}>
      
           <a
