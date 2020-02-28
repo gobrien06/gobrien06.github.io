@@ -4,7 +4,7 @@ import {Form, FormGroup, Label, Input,Card, Button} from 'reactstrap';
 const ContactCard=()=>{
     let [email,setEmail] = useState('');
     let[message,setMessage] = useState('');
-    let[feedback,setFeedback] = useState('');
+    let[feedback,setFeedback] = useState('Currently, emails are not being handled on this website. Please contact me through LinkedIn until development continues!');
 
     const postEmail=()=>{
         //nothing yet
@@ -24,7 +24,7 @@ const ContactCard=()=>{
         postEmail();
         setEmail('');
         setMessage('');
-        setFeedback('Sent!');
+        //setFeedback('Sent!');
     }
 
     return(
