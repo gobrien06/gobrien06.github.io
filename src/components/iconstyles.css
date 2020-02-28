@@ -1,10 +1,10 @@
 .topicon{
-    color: "white";
-    textDecoration: "none";
-    marginLeft: "1.55vh";
-    display:"inline";
+    text-Decoration: none;
+
+    margin-top:-1.9vh;
   }
 
-  .topicon:hover{
+.topicon:hover{
     -webkit-filter: brightness(100%);
   }
+  

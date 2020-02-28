@@ -6,7 +6,7 @@ import './contentcard.css';
 
 const ContentCard = ()=>(
             <Card className="neucard">
-            <Particles  params={{
+            <Particles  className="mobilesupport"params={{
 	    "fps_limit": 30,
 	    "particles": {
 	        "number": {
@@ -65,11 +65,11 @@ const ContentCard = ()=>(
 	        }
 	    }}}/>
             <CardBody style={{
-                fontSize:`1.2rem`,
+                fontSize:`1.1rem`,
                 fontWeight:`400`,
             }}>
             As a student I study data structures, algorithms, and mathematics in my computer science curriculum, utilizing C++ and Python.<br/><br/> 
-            Outside of my coursework, I create modern web platforms with JavaScript frameworks, such as React and Express. 
+            Outside of my coursework I create modern web platforms with JavaScript frameworks, such as React and Express. 
             These projects allow me to not only gain experience working with new technologies, but also have fun creating web applications I love.
              If you have a chance, <Link to="/projects" style= {{
                  color: `white`,

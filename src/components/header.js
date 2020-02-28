@@ -30,10 +30,9 @@ const Header = ({ siteTitle }) => (
       }}
     >
         <Link
-          className="topicon"
           to="/"
         >
-          <img src="/images/Google_Material_Design_Logo.svg.png" height="45vh"/>
+          <img src="/images/websiteicon.svg" height="45vh" alt="siteicon" className="topicon"/>
         </Link>
 
         <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,}}>

@@ -2,15 +2,15 @@ import React from "react";
 import {Card, Row, Col} from 'reactstrap';
 import './projectcard.css';
 
-const ProjectCard = ({title, summary, url, year, tech, hack})=>{
+const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
     return(
-        <div className="contain" style={{
+        <a href={link}className="contain" style={{
             marginTop:`10vh`,
         }}>
 
         <Card className="projcard">
         <Row>
-        <Col xs="4" style={{
+        <Col lg="4" style={{
                 paddingTop:`10vh`,
                 paddingLeft:`5vh`,
         }}>
@@ -57,15 +57,15 @@ const ProjectCard = ({title, summary, url, year, tech, hack})=>{
 
 
         </Col>
-        <Col xs="8" style={{
+        <Col lg="8" style={{
             paddingTop:`3%`,
             paddingBottom:`3%`,
         }}>
-            <img src={url} height="400vh" />
+            <img src={url} height="400vh" alt="projimg"/>
         </Col>
         </Row>
         </Card>
-        </div>
+        </a>
     )
 }
 
@@ -76,6 +76,7 @@ ProjectCard.defaultProps = {
     year:`Winter 2020`,
     tech:``,
     hack:``,
+    link:``,
   }
 
 export default ProjectCard;

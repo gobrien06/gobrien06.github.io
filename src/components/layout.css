@@ -7,6 +7,11 @@ html {
   color:#FFF;
   overflow:hidden;
 }
+@media only screen and (max-width:800px){
+  .mobilesupport{
+    visibility:hidden;
+  }
+}
 
 body {
   padding:0;

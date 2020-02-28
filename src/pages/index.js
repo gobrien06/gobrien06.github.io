@@ -17,9 +17,9 @@ const IndexPage = () => (
       padding:`10vh`,
       paddingTop:`20vh`,
       paddingBottom:`20vh`,
-
+    
     }}>
-      <Col xs='6'>
+      <Col lg='6'>
         <h1 style={{
           marginLeft: `1.55vh`, 
           fontWeight:`600`,
@@ -29,7 +29,7 @@ const IndexPage = () => (
           Hey, my name's Gabby.
         </h1>
       </Col>
-      <Col xs='6' >
+      <Col lg='6' className="mobilesupport">
         <h4 style={{
           color:`gray`,
           fontWeight:`300`,
@@ -54,9 +54,9 @@ const IndexPage = () => (
         }} >
           <h5 
           style={{
-            fontWeight:`500`,
+            fontWeight:`400`,
           }}>
-          Say hello
+          Let's Talk
           </h5>
         </Button>
         </Link>
@@ -67,7 +67,7 @@ const IndexPage = () => (
      params={{
       "particles": {
         "number": {
-            "value": 85
+            "value": 80
         },
         "size": {
             "value": 2
@@ -87,7 +87,7 @@ const IndexPage = () => (
       <div style={{width:`100%`,height:`2vh`, position:`absolute`,textAlign:`center`,}}>
         <img src="/images/Screen Shot 2020-02-27 at 9.01.54 PM.jpeg" height="160vh" alt="icon" style={{
           marginTop:`-13vh`,
-          border:`1vh solid #2C2F33`,
+          border:`1.05vh solid #2C2F33`,
           borderRadius:`50%`,
         }} />
       </div>

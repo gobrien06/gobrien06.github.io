@@ -12,11 +12,15 @@
     
 }
 
-.contain:hover{
+.projcard:hover{
     -webkit-transform:scale(1.02);
     -webkit-transition:all 0.05s ease-out;
     -moz-transition:all 0.05s ease-out;
     transition:all 0.05s ease-out;
+}
+
+a:hover{
+    text-decoration:none;
 }
 
 
