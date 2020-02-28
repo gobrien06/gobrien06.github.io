@@ -4,17 +4,15 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background-color:#2C2F33;
-  overflow: auto;
   color:#FFF;
+  overflow:hidden;
 }
 
 body {
-  margin: 0;
+  padding:0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overscroll-behavior: none;
-  overflow: auto;
-
+  overflow:hidden;
 }
 article,
 aside,
@@ -54,6 +52,8 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  -webkit-filter: brightness(70%);
+
 }
 abbr[title] {
   border-bottom: none;

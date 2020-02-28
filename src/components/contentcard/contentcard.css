@@ -13,23 +13,6 @@
     border-radius:10px !important;
     color:#FFFF;
 }
-
-.projcard{
-    box-shadow: 0.5vh 0.5vh 0.5vh #000;
-    min-height:50vh;
-    max-width: 65%;
-    margin-top:2vh;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:10vh;
-    padding:4vh;
-    padding-left:5vh;
-    font-family:Avenir;
-    background-color: #5B53B9 !important;
-    border-radius:10px !important;
-    color:#FFFF;
-}
-
 img{
     border-radius:10px;
 }

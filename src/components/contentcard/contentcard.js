@@ -1,65 +1,11 @@
 import React from "react";
 import {Link} from 'gatsby';
-import {Card, CardBody, Button} from 'reactstrap';
+import {Card, CardBody} from 'reactstrap';
 import Particles from 'react-particles-js';
 import './contentcard.css';
 
-const ContentCard = ({title, content, type, url})=>{
-    if(type=='content'){
-        return(
+const ContentCard = ()=>(
             <Card className="neucard">
-            <h2 style={{
-                fontWeight:`500`,
-                marginBottom:`1.5rem`,
-                fontSize:`2.3rem`,
-            }}>
-            {title}
-            </h2>
-            <img top width="550vh" style={{
-                margin:`auto`,
-                marginBottom:`1.5rem`,
-            }} src={url} alt="projectimg"/>
-            <CardBody>
-            {content}
-            </CardBody>
-            </Card>
-        )
-    }
-    else if(type=='project'){
-        return(
-            <Card className="projcard" style={{
-                background:`#5B53B9`,
-            }}>
-            <h2 style={{
-                fontWeight:`500`,
-                marginBottom:`1.5rem`,
-                fontSize:`2.3rem`,
-            }}>
-            {title}
-            </h2>
-            <img top width="550vh" style={{
-                margin:`auto`,
-                marginBottom:`1.5rem`,
-            }} src={url} alt="projectimg"/>
-            <CardBody>
-                {content}
-            </CardBody>
-            <Button style={{background:`white`, height:`6vh`, width:`30%`, color:`#2C2F33`, }}>
-                Demo
-            </Button>
-            </Card>
-        )
-    }
-    else{
-        return(
-            <Card className="neucard">
-            <h2 style={{
-                fontWeight:`500`,
-                marginBottom:`1.5rem`,
-                fontSize:`2.3rem`,
-            }}>
-            {title}
-            </h2>
             <Particles  params={{
 	    "fps_limit": 30,
 	    "particles": {
@@ -118,7 +64,10 @@ const ContentCard = ({title, content, type, url})=>{
 	            }
 	        }
 	    }}}/>
-            <CardBody>
+            <CardBody style={{
+                fontSize:`1.2rem`,
+                fontWeight:`400`,
+            }}>
             As a student I study data structures, algorithms, and mathematics in my computer science curriculum, utilizing C++ and Python.<br/><br/> 
             Outside of my coursework, I create modern web platforms with JavaScript frameworks, such as React and Express. 
             These projects allow me to not only gain experience working with new technologies, but also have fun creating web applications I love.
@@ -135,14 +84,7 @@ const ContentCard = ({title, content, type, url})=>{
             }}> please contact me</Link> if you'd like to collaborate.
             </CardBody>
             </Card> 
-        )
-    }
-}
+)
 
-ContentCard.defaultProps = {
-    title: ``,
-    content:``,
-    url:``,
-  }
 
 export default ContentCard;

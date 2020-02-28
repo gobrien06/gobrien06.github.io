@@ -31,23 +31,46 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `0 0rem 0.5rem`,
         }}
       >
         <main>{children}</main>
-       
+        <footer style={{
+          color:`white`,
+          textAlign:`right`,
+          margin:`0`,
+          paddingRight:`1.6vh`,
+        }}>
+     
+          <a
+          href="https://github.com/gobrien06"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            marginLeft:`1.5vh`,
+          }}
+        >
+          <img src="/images/GitHub-Mark-Light-64px.png" height="25vh" style={{ marginTop:`1rem`,}}/>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gabrielle-o-580986174/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            marginLeft:`1.5vh`,
+          }}
+        >
+          <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="27.4vh" style={{ marginTop:`1rem`,}}/>
+        </a>
+        </footer>
       </div>
     </div>
   )
 }
 
-/*
-  <footer>
-          © Gabrielle O'Brien {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-*/
+
+  
+
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
