@@ -22,7 +22,7 @@ const ProjectsPage = () => (
       }}>What I've Done.</h1>
       <br/><br/>
       <ProjectCard  title="IVC Computer Science Club" link="https://www.ivccsc.com" summary="Front-end development. UI/UX design." url="/images/Screen Shot 2020-02-27 at 10.52.15 PM.png" tech="ReactJS, CSS3, HTML5"/>
-      <ProjectCard  title="LifeCost" link="https://devpost.com/software/lifecost-2pidzr" summary="Front-end development. UI/UX design." url="/images/lifecost.svg" tech="ReactJS, CSS3, HTML5" hack="Made For HackUCI"/>
+      <ProjectCard  title="LifeCost" link="https://devpost.com/software/lifecost-2pidzr" summary="Front-end development. UI/UX design." url="/images/gallery.jpg" tech="ReactJS, CSS3, HTML5" hack="Made For HackUCI"/>
       </div>
       
       <Particles height="15vh" style={{position:`absolute`, maxWidth:'90%', float:`left`,}}

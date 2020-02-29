@@ -55,6 +55,7 @@ const ContactCard=()=>{
                     padding:`1vh`,
                     color:`white`,
                     marginBottom:`2vh`,
+                    border:`black`,
                 }}type="email" name="email" id="email" placeholder="Enter your email." onChange={(e) => handleChange(e,"email")}/>
                 </FormGroup>
 
@@ -65,6 +66,7 @@ const ContactCard=()=>{
                     padding:`1vh`,
                     color:`white`,
                     marginBottom:`2vh`,
+                    border:`black`,
                 }}type="text" name="message" id="message" placeholder="Enter your message." onChange={(e) => handleChange(e)}/>               
                 </FormGroup>
                 <a><Button type="submit" style={{

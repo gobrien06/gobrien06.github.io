@@ -28,7 +28,6 @@ const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
                 marginLeft:`3`,
                 fontSize:`2rem`,
                 color:`white`,
-
             }}>
             {title}
             </h2>

@@ -63,7 +63,10 @@ const ContentCard = ()=>(
 	                "distance": 40
 	            }
 	        }
-	    }}}/>
+	    }}}
+		style={{
+			zIndex:`10`,
+		}}/>
             <CardBody style={{
                 fontSize:`1.1rem`,
                 fontWeight:`400`,

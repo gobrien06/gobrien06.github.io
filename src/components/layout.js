@@ -50,7 +50,10 @@ const Layout = ({ children }) => {
             marginLeft:`1.5vh`,
           }}
         >
-          <img src="/images/GitHub-Mark-Light-64px.png" height="25vh" style={{ marginTop:`1rem`,}} alt="githubicon"/>
+          <img src="/images/GitHub-Mark-Light-64px.png" height="25vh" style={{ 
+          marginTop:`1rem`,
+          zIndex:`10`,
+         }} alt="githubicon"/>
         </a>
         <a
           href="https://www.linkedin.com/in/gabrielle-o-580986174/"
@@ -58,6 +61,7 @@ const Layout = ({ children }) => {
             color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
+            zIndex:`10`,
           }}
         >
           <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="27.4vh" style={{ marginTop:`1rem`,}} alt="linkedinicon"/>
