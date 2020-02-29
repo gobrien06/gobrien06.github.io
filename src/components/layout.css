@@ -9,7 +9,7 @@ html {
 }
 @media only screen and (max-width:800px){
   h1{
-    font-size:20vh;
+    font-size:10vh !important;
   }
   .mobilesupport{
     visibility:hidden;
@@ -60,7 +60,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
-  text-decoration: none;
+  text-decoration: none !important;
   -webkit-filter: brightness(70%);
 
 }

@@ -48,9 +48,9 @@ const IndexPage = () => (
         >
         <Button  style={{
           margin:`1.5rem`,
-          background:`#5B53B9`,
+          background:`#F3CA3E`,
           marginLeft:`auto`,
-          border:`#5B53B9`,
+          border:`#F3CA3E`,
         }} >
           <h5 
           style={{
@@ -63,7 +63,7 @@ const IndexPage = () => (
       </Col>
     </Row>
    
-    <Particles height="142vh" style={{position:`absolute`, maxWidth:'99%',}}
+    <Particles height="139vh" style={{position:`absolute`, maxWidth:'99%',}}
      params={{
       "particles": {
         "number": {
@@ -85,8 +85,8 @@ const IndexPage = () => (
       }
       />
       <div style={{width:`100%`,height:`2vh`, position:`absolute`,textAlign:`center`,}}>
-        <img src="/images/Screen Shot 2020-02-27 at 9.01.54 PM.jpeg" height="160vh" alt="icon" style={{
-          marginTop:`-13vh`,
+        <img src="/images/Screen Shot 2020-02-28 at 4.07.48 PM.png" height="160vh" alt="icon" style={{
+          marginTop:`-10vh`,
           border:`1.05vh solid #2C2F33`,
           borderRadius:`50%`,
         }} />

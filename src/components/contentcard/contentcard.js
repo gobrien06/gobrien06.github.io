@@ -33,7 +33,7 @@ const ContentCard = ()=>(
 	            "value": 0.4
             },
             "color": {
-                "value": "#5B53B9"
+                "value": "#F3CA3E"
               },
 	    },
 	    "polygon": {
