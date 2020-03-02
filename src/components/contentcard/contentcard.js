@@ -25,7 +25,7 @@ const ContentCard = ()=>(
 				},
 				"move": {
 					"speed": 4.5,
-					"out_mode": "bounce"
+					"out_mode": "out"
 				},
 				"shape": {
 					"type": [

@@ -63,7 +63,18 @@ const IndexPage = () => (
       </Col>
     </Row>
    
-    <Particles height="120%" style={{position:`absolute`,}}
+ 
+      <div style={{width:`100%`,height:`2vh`, position:`absolute`,textAlign:`center`,}}>
+        <img src="/images/Screen Shot 2020-02-28 at 4.07.48 PM.png" height="160vh" alt="icon" style={{
+          marginTop:`-11vh`,
+          border:`1.05vh solid #2C2F33`,
+          borderRadius:`50%`,
+        }} />
+      </div>
+      <br/>
+      <br/>
+      
+    <Particles height="90%" style={{position:`absolute`,}}
      params={{
       "particles": {
         "number": {
@@ -84,17 +95,7 @@ const IndexPage = () => (
       }
       }
       />
-      <div style={{width:`100%`,height:`2vh`, position:`absolute`,textAlign:`center`,}}>
-        <img src="/images/Screen Shot 2020-02-28 at 4.07.48 PM.png" height="160vh" alt="icon" style={{
-          marginTop:`-10vh`,
-          border:`1.05vh solid #2C2F33`,
-          borderRadius:`50%`,
-        }} />
-      </div>
-      <br/>
-      <br/>
-      
-    <Row style={{paddingTop:`2rem`,}} >
+    <Row style={{paddingTop:`2rem`,}} >   
     <ContentCard />
     <h3 style={{
       marginLeft: `15%`, 
@@ -106,6 +107,7 @@ const IndexPage = () => (
       What I Do.
     </h3>
     </Row>
+    
     
   </Layout>
 

@@ -48,7 +48,7 @@ const ContactCard=()=>{
             <form   onSubmit={handleSubmit}
             action="https://formspree.io/mzbgvyqr"
             method="POST">
-                <FormGroup><br/>
+                <FormGroup>
                 <Label for="exampleEmail">Email</Label><br/>
                 <input style={{
                     background:`#2C2F33`,

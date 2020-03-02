@@ -50,7 +50,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
             fontWeight:`500`,
             textAlign:`left`,
             fontSize:`0.9rem`,
-            marginTop:`20vh`,
+            marginTop:`5vh`,
             color:`white`,
             }}>{hack}</h3>
 
