@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
             color: `white`,
             textDecoration: `none`,
             marginLeft:`1.5vh`,
-            zIndex:`10`,
+            zIndex:`20`,
           }}
         >
           <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="27.4vh" style={{ marginTop:`1rem`,}} alt="linkedinicon"/>

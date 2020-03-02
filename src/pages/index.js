@@ -34,7 +34,7 @@ const IndexPage = () => (
           color:`gray`,
           fontWeight:`300`,
         }}>
-        I am a software engineer with a focus on frontend technologies in Irvine, California. I am experienced in <b>JS, React, Express, HTML5, CSS,</b> and <b>Gatsby</b>.
+        I am a software engineer with a focus on frontend technologies in Irvine, California. I am experienced in <b>JavaScript, ReactJS, ExpressJS, HTML5, CSS3,</b> and <b>Gatsby</b>.
         <br/><br/>
        I'm also studying computer science as a sophomore at Irvine Valley College,
         planning to transfer Fall 2020 to University of California, Irvine.
@@ -63,11 +63,11 @@ const IndexPage = () => (
       </Col>
     </Row>
    
-    <Particles height="139vh" style={{position:`absolute`, maxWidth:'99%',}}
+    <Particles height="120%" style={{position:`absolute`,}}
      params={{
       "particles": {
         "number": {
-            "value": 80
+            "value": 50
         },
         "size": {
             "value": 2

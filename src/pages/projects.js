@@ -25,7 +25,7 @@ const ProjectsPage = () => (
       <ProjectCard  title="LifeCost" link="https://devpost.com/software/lifecost-2pidzr" summary="Front-end development. UI/UX design." url="/images/gallery.jpg" tech="ReactJS, CSS3, HTML5" hack="Made For HackUCI"/>
       </div>
       
-      <Particles height="15vh" style={{position:`absolute`, maxWidth:'90%', float:`left`,}}
+      <Particles height="15vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}
      params={{
       "particles": {
         "number": {

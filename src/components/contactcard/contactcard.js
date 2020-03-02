@@ -48,14 +48,15 @@ const ContactCard=()=>{
             <form   onSubmit={handleSubmit}
             action="https://formspree.io/mzbgvyqr"
             method="POST">
-                <FormGroup>
+                <FormGroup><br/>
                 <Label for="exampleEmail">Email</Label><br/>
                 <input style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
                     color:`white`,
                     marginBottom:`2vh`,
-                    border:`black`,
+                    boxShadow:`inset 0.2vh 0.2vh 0.3vh #000000`,
+                    border:`none`,
                 }}type="email" name="email" id="email" placeholder="Enter your email." onChange={(e) => handleChange(e,"email")}/>
                 </FormGroup>
 
@@ -66,7 +67,8 @@ const ContactCard=()=>{
                     padding:`1vh`,
                     color:`white`,
                     marginBottom:`2vh`,
-                    border:`black`,
+                    boxShadow:`inset 0.2vh 0.2vh 0.3vh #000000`,
+                    border:`none`,
                 }}type="text" name="message" id="message" placeholder="Enter your message." onChange={(e) => handleChange(e)}/>               
                 </FormGroup>
                 <a><Button type="submit" style={{

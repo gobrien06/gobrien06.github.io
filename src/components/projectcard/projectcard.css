@@ -30,3 +30,12 @@ a:hover{
     box-shadow: 1vh 1vh 3vh #000;
     float:right;
 }
+
+@media only screen and (max-width:800px){
+    .projcard{
+        max-height:30vh;
+    }
+    .projcard img{
+      visibility:hidden;
+    }
+  }

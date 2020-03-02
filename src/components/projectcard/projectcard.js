@@ -60,7 +60,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
             paddingTop:`3%`,
             paddingBottom:`3%`,
         }}>
-            <img src={url} height="400vh" alt="projimg"/>
+            <img src={url} height="400vh" alt="projimg" style={{marginTop:`auto`,}}/>
         </Col>
         </Row>
         </Card>

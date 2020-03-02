@@ -6,68 +6,63 @@ import './contentcard.css';
 
 const ContentCard = ()=>(
             <Card className="neucard">
-            <Particles  className="mobilesupport"params={{
-	    "fps_limit": 30,
-	    "particles": {
-	        "number": {
-	            "value": 350,
-	            "density": {
-	                "enable": false
-	            }
-	        },
-	        "line_linked": {
-	            "enable": true,
-	            "distance": 25,
-	            "opacity": 0.4,
-	        },
-	        "move": {
-	            "speed": 1
-	        },
-	        "opacity": {
-	            "anim": {
-	                "enable": true,
-	                "opacity_min": 0.05,
-	                "speed": 1,
-	                "sync": false
-	            },
-	            "value": 0.4
-            },
-            "color": {
-                "value": "#F3CA3E"
-              },
-	    },
-	    "polygon": {
-	        "enable": true,
-	        "scale": 0.7,
-	        "type": "inline",
-	        "move": {
-	            "radius": 10
-	        },
-	        "url": "/images/deer.svg",
-	        "inline": {
-	            "arrangement": "equidistant"
-	        },
-	     
-	    },
-	    "retina_detect": false,
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "bubble"
-	            }
-	        },
-	        "modes": {
-	            "bubble": {
-	                "size": 6,
-	                "distance": 40
-	            }
-	        }
-	    }}}
-		style={{
-			zIndex:`10`,
+			<Particles 
+			height="50vh"
+			style={{
+				zIndex:`10`,
+			}}
+			params={{
+			"particles": {
+				"number": {
+					"value": 10,
+					"density": {
+						"enable": true,
+						"value_area": 500
+					}
+				},
+				"line_linked": {
+					"enable": false
+				},
+				"move": {
+					"speed": 4.5,
+					"out_mode": "bounce"
+				},
+				"shape": {
+					"type": [
+						"images",
+					],
+					"images": [
+						{
+							"src": "/images/800px-React-icon.svg.png",
+							"height": 20,
+							"width": 30
+						},
+						{
+							"src": "/images/5847f5bdcef1014c0b5e489c.png",
+							"height": 20,
+							"width": 23
+						},
+						{
+							"src": "/images/css3-logo-png-transparent.png",
+							"height": 20,
+							"width": 23
+						},
+						{
+							"src":"/images/node-js-512.png",
+							"height": 19,
+							"width": 19
+						}
+					]
+				},
+				"size": {
+					"value": 50,
+					"random": false,
+				}
+			},
+			"retina_detect": false
 		}}/>
             <CardBody style={{
+				margin:`0`,
                 fontSize:`1.1rem`,
                 fontWeight:`400`,
             }}>
@@ -91,3 +86,9 @@ const ContentCard = ()=>(
 
 
 export default ContentCard;
+
+/*
+	"color":{
+					"value":"#F3CA3E",
+				},
+				*/
