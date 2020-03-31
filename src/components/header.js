@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
 
         <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,}}>
         <Link
-          to="/projects"
+          to="/projects/projects"
           style={{
             color: `gray`,
             textDecoration: `none`,

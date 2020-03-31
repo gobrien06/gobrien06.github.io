@@ -1,0 +1,41 @@
+[
+    {
+        "name":"IVC Computer Science Club",
+        "year":"Winter 2019",
+        "tech":"ReactJS, HTML5, CSS3",
+        "link":"https://www.ivccsc.com",
+        "demo":"",
+        "image":"/images/Screen Shot 2020-02-27 at 10.52.15 PM.png",
+        "description": "The IVC Computer Science Club website is a platform that allows new users to see important information about the club. The site gathers data from popular messaging platform Discord and displays the announcement messages dynamically, allowing new members to sign up with their emails and see important events.",
+        "duties":"As a front-end engineer, I created the layout of the site with ReactJS components, and made various calls for user data through HTTP requests to our custom API.",
+        "devtime":"1 Week",
+        "role":"Front-end engineer. UI/UX designer.",
+        "hackathon":""
+    },
+    {
+        "name":"LifeCost",
+        "year":"Spring 2020",
+        "tech":"ReactJS, HTML5, CSS3",
+        "image":"/images/gallery.jpg",
+        "demo":"",
+        "link":"https://devpost.com/software/lifecost-2pidzr",
+        "description": "LifeCost allows individuals to find accurate salary and cost of living information for employment in a select area. The platform scrapes through job and living information to provide accurate information for any job in any area, and displays this information in a fresh and informative way.",
+        "duties":"As a front-end engineer, I created the layout of the site with ReactJS components, and made various calls for user data through HTTP requests to our custom API. I also integrated new ReactJS libraries for data visualization and animations.",
+        "devtime":"36 Hours",
+        "role":"Front-end engineer. UI/UX designer.",
+        "hackathon":"Made for HackUCI"
+    },
+    {
+        "name":"Hobbyist",
+        "year":"Spring 2020",
+        "tech":"React Native",
+        "image":"/images/Screen Shot 2020-03-31 at 12.52.23 PM.png",
+        "demo":"",
+        "link":"https://devpost.com/software/hobbyist",
+        "description": "Hobbyist is a mobile application that allows users to match with others within a one mile geographical radius when they both have similar interests. Hobbyist allows you to natively talk from within the app, so you don't have to exchange personal information until you've met who you've matched with. Perfect for anyone who has trouble starting that first conversation!",
+        "duties":"As a front-end engineer, I created the layout of the app with React Native components, and made various calls for user data through HTTP requests to our custom API. I also integrated new React Native libraries for chat ingration and animations, and implemented the Google Maps API to display the users current location on a map.",
+        "devtime":"36 Hours",
+        "role":"Front-end engineer. UI/UX designer.",
+        "hackathon":"Made for LAHacks"
+    }
+]

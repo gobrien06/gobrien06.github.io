@@ -15,7 +15,7 @@ const IndexPage = () => (
       height:`88vh`,
       background:`white`,
       padding:`10vh`,
-      paddingTop:`20vh`,
+      paddingTop:`10%`,
       paddingBottom:`20vh`,
     
     }}>
@@ -34,7 +34,7 @@ const IndexPage = () => (
           color:`gray`,
           fontWeight:`300`,
         }}>
-        I am a software engineer with a focus on frontend technologies in Irvine, California. I am experienced in <b>JavaScript, ReactJS, ExpressJS, HTML5, CSS3,</b> and <b>Gatsby</b>.
+        I am a software engineer with a focus on frontend technologies in Irvine, California. I am experienced in <b>JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git,</b> and <b>Gatsby</b>.
         <br/><br/>
        I'm also studying computer science as a sophomore at Irvine Valley College,
         planning to transfer Fall 2020 to University of California, Irvine.

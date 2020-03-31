@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Contact" />
     <div className="contain" style={{
       paddingTop:`20vh`,
     }}>
