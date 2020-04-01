@@ -39,7 +39,7 @@
         "link":"https://devpost.com/software/hobbyist",
         "git":"https://github.com/gobrien06/hobbyist",
         "description": "Hobbyist is a mobile application that allows users to match with others within a one mile geographical radius when they both have similar interests. Hobbyist allows you to natively talk from within the app, so you don't have to exchange personal information until you've met who you've matched with. Perfect for anyone who has trouble starting that first conversation!",
-        "duties":"As the front-end engineer, I created the layout of the app with React Native components, and made various calls for user data through HTTP requests to our custom API. I also integrated new React Native libraries for chat ingration and animations, and implemented the Google Maps API to display the users current location on a map.",
+        "duties":"As the front-end engineer, I created the layout of the app with React Native components, and made various calls for user data through HTTP requests to our custom API. I also integrated new React Native libraries for chat functionality and animations, and implemented the Google Maps API to display the users current location on a map.",
         "devtime":"36 Hours",
         "role":"Front-end engineer. UI/UX designer.",
         "hackathon":"Made for LAHacks"
