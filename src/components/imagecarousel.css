@@ -1,0 +1,16 @@
+.carousel img{
+    height:60vh !important;
+    object-fit: cover !important;
+    margin:auto;
+    border-radius:0 !important;
+    display:block  !important;
+
+
+  }
+  
+
+  .carousel .item img {
+    max-height: 40vh !important;
+    min-width: auto;
+
+  }

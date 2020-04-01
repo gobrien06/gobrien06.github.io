@@ -13,7 +13,7 @@ const Projects = () => {
   const addProjects = () =>{
     //console.log(JSONData);
      items = JSONData.map((element) => 
-      <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
+      <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image[0]} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
       return items;
     }
 
