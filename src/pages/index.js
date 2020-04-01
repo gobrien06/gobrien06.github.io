@@ -15,7 +15,7 @@ const IndexPage = () => (
       height:`88vh`,
       background:`white`,
       padding:`10vh`,
-      paddingTop:`10%`,
+      paddingTop:`20vh`,
       paddingBottom:`20vh`,
     
     }}>

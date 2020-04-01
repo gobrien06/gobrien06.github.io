@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../../components/layout";
-import SEO from "../../components/seo";
-import ProjectCard from '../../components/projectcard/projectcard';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import ProjectCard from '../components/projectcard/projectcard';
 import Particles from 'react-particles-js';
-import JSONData from "../../content/projdata.json"
+import JSONData from "../content/projdata.json"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -11,9 +11,9 @@ const Projects = () => {
   let items = [];
 
   const addProjects = () =>{
-    console.log(JSONData);
+    //console.log(JSONData);
      items = JSONData.map((element) => 
-      <ProjectCard title={element.name} link={element.link} summary={element.role} url={element.image} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
+      <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
       return items;
     }
 

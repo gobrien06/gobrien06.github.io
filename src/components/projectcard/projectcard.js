@@ -1,12 +1,16 @@
 import React from "react";
 import {Card, Row, Col} from 'reactstrap';
+import {Link} from "gatsby";
 import './projectcard.css';
 
-const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
+const ProjectCard = ({title, summary, url, year, tech, hack, slug})=>{
+    const link = '/projects/' + slug +'/';
+    //console.log("link " + link);
     return(
-        <a href={link}className="contain" style={{
+        <Link className="contain" style={{
             marginTop:`10vh`,
-        }}>
+        }}
+        to={link}>
 
         <Card className="projcard">
         <Row>
@@ -64,7 +68,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, link})=>{
         </Col>
         </Row>
         </Card>
-        </a>
+        </Link>
     )
 }
 

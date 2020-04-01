@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './iconstyles.css';
+
 const Header = ({ siteTitle }) => (
 
   <header
@@ -37,7 +38,7 @@ const Header = ({ siteTitle }) => (
 
         <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,}}>
         <Link
-          to="/projects/projects"
+          to="/projects"
           style={{
             color: `gray`,
             textDecoration: `none`,
