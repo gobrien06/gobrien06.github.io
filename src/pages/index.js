@@ -36,8 +36,7 @@ const IndexPage = () => (
         }}>
         I am a software engineer with a focus on frontend technologies in Irvine, California. I am experienced in <b>JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git,</b> and <b>Gatsby</b>.
         <br/><br/>
-       I'm also studying computer science as a sophomore at Irvine Valley College,
-        planning to transfer Fall 2020 to University of California, Irvine.
+       I'm also studying computer science as a sophomore at Irvine Valley College.
         </h4>
         <Link
         to="/contact"

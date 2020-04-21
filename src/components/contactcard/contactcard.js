@@ -62,10 +62,13 @@ const ContactCard=()=>{
 
                 <FormGroup>
                 <Label for="exampleEmail">Message</Label><br/>
-                <input style={{
+                <textarea style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
                     color:`white`,
+                    resize:`none`,
+                    height:`15vh`,
+                    width:`100vh`,
                     marginBottom:`2vh`,
                     boxShadow:`inset 0.2vh 0.2vh 0.3vh #000000`,
                     border:`none`,
