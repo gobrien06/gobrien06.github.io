@@ -42,9 +42,20 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `gray`,
             textDecoration: `none`,
+            marginLeft:`1.8vh`,
           }}
         >
           Projects
+        </Link>
+        <Link
+          to="/blog"
+          style={{
+            color: `gray`,
+            textDecoration: `none`,
+            marginLeft:`1.8vh`,
+          }}
+        >
+          Blog
         </Link>
         <Link
           to="/contact"

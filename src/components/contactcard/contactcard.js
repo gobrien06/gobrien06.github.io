@@ -42,7 +42,7 @@ const ContactCard=()=>{
         e.preventDefault();
         postEmail(e);
     }
-
+ 
     return(
         <Card className="neucard">
             <form   onSubmit={handleSubmit}
@@ -68,7 +68,7 @@ const ContactCard=()=>{
                     color:`white`,
                     resize:`none`,
                     height:`15vh`,
-                    width:`100vh`,
+                    width:`95%`,
                     marginBottom:`2vh`,
                     boxShadow:`inset 0.2vh 0.2vh 0.3vh #000000`,
                     border:`none`,
