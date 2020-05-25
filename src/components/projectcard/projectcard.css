@@ -1,5 +1,5 @@
 .projcard{
-    box-shadow: 0.5vh 0.5vh 1vh #000;
+    box-shadow: 0.5vh 0.5vh 1vh gray;
     min-height:50vh;
     max-width: 65%;
     margin-bottom:10vh;
@@ -10,6 +10,7 @@
     margin-right:auto;
     overflow:hidden;
     text-Decoration: none;
+    border-radius:1vh;
     padding-bottom:3vh;   
 }
 

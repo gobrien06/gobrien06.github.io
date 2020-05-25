@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import { FormGroup, Label,Card, Button} from 'reactstrap';
+import { FormGroup, Card, Label, Button} from 'reactstrap';
+import './contactcard.css';
 
 const ContactCard=()=>{
     /*let [email,setEmail] = useState('');
@@ -44,7 +45,7 @@ const ContactCard=()=>{
     }
  
     return(
-        <Card className="neucard">
+        <Card className='neucard'>
             <form   onSubmit={handleSubmit}
             action="https://formspree.io/mzbgvyqr"
             method="POST">

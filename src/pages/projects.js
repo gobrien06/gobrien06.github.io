@@ -14,6 +14,7 @@ const Projects = () => {
     //console.log(JSONData);
      items = JSONData.map((element) => 
       <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image[0]} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
+      items.reverse();
       return items;
     }
 
@@ -21,7 +22,7 @@ const Projects = () => {
       <Layout>
       <SEO title="Projects" />
       <div style={{
-        paddingTop:`15vh`,
+        paddingTop:`10vh`,
         paddingBottom:`5vh`,
         background:`white`,
         color:`black`,
@@ -31,8 +32,8 @@ const Projects = () => {
             textAlign:`left`,
             marginLeft:`4.3rem`,
             fontSize:`3rem`,
-        }}>What I've Done.</h1>
-        <br/><br/>
+        }}>What I've Done.<hr width="5%"/></h1>
+        <br/>
         {addProjects()}
         </div>
         

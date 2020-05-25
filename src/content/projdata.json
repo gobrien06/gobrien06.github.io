@@ -57,6 +57,7 @@
         "duties":"As the front-end engineer, I created the layout of the app with React Native components, and made various calls for user data through HTTP requests to our custom API. I also integrated new React Native libraries for chat functionality and animations, and implemented geolocation fetching to get the users current location.",
         "devtime":"48 Hours",
         "role":"Front-end engineer. UI/UX designer.",
-        "hackathon":"Made for IVCHacks"
+        "hackathon":"Made for IVCHacks",
+        "winner":"true"
     }
 ]

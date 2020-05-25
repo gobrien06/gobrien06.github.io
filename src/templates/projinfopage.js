@@ -47,14 +47,14 @@ const ProjInfoPage = ({pageContext}) => {
         <a href={pageContext.link} style={{ display: `inline`,}}>
         <div style={{backgroundColor:`#F3CA3E`, marginLeft:`3vh`, padding:`0.5vh`, width:`15vh`, borderRadius:50, textAlign:`center`, marginTop:`1.5vh`, display:`inline-block`}}>
 
-        <h4 style={{
+        <h5 style={{
         fontWeight:'400 ',
         display:`inline`,
      
          color:`white`,
         }}>
             Link
-        </h4>
+        </h5>
  
         </div>
         </a>
@@ -73,12 +73,12 @@ const ProjInfoPage = ({pageContext}) => {
         </div>
         </Col>
         <Col lg="6">
-        <h4 style={{
+        <h5 style={{
             color:`gray`,
             fontWeight:`300`,
         }}><br/><br/>
             {pageContext.description}
-        </h4>
+        </h5>
         </Col>
         </Row>
         <Row className="mobilescale" style={{margin:`auto`,padding:`10vh`, paddingTop:`13vh`,backgroundColor:"#FFF",   paddingRight:`28vh`,}}>
@@ -111,10 +111,10 @@ const ProjInfoPage = ({pageContext}) => {
         <Col lg="6">
     
 
-        <h4 style={{   color:`gray`,
+        <h5 style={{   color:`gray`,
             fontWeight:`300`,}}>
         {pageContext.duties}
-        </h4>
+        </h5>
         </Col>
         </Row>
         <Particles height="15vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}

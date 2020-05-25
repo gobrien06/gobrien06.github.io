@@ -10,7 +10,8 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
     <div className="contain" style={{
-      paddingTop:`20vh`,
+      paddingTop:`10vh`,
+      
     }}>
      <h2 style={{
       fontWeight:`500`,

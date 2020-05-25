@@ -1,18 +1,17 @@
 import React from "react";
-import {Card, Row, Col} from 'reactstrap';
+import {Row, Col} from 'reactstrap';
 import {Link} from "gatsby";
 import './projectcard.css';
 
-const ProjectCard = ({title, summary, url, year, tech, hack, slug})=>{
+//add winners star here
+const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner})=>{
     const link = '/projects/' + slug +'/';
     //console.log("link " + link);
     return(
-        <Link className="contain" style={{
-            marginTop:`10vh`,
-        }}
+        <Link className="contain"
         to={link}>
 
-        <Card className="projcard">
+        <div className="projcard" style={{marginTop:`-3h`, marginLeft:`auto`,}}>
         <Row>
         <Col lg="4" style={{
                 paddingTop:`10vh`,
@@ -30,7 +29,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug})=>{
                 fontWeight:`600`,
                 margin:`0`,
                 marginLeft:`3`,
-                fontSize:`2rem`,
+                fontSize:`2.5rem`,
                 color:`white`,
             }}>
             {title}
@@ -58,6 +57,16 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug})=>{
             color:`white`,
             }}>{hack}</h3>
 
+            {winner 
+            ?
+            <h3 style = {{
+            fontWeight:`500`,
+            textAlign:`left`,
+            fontSize:`0.9rem`,
+            marginTop:`5vh`,
+            color:`white`,}}>
+            ★ Winner!
+            </h3> : null }
 
         </Col>
         <Col lg="8" style={{
@@ -67,7 +76,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug})=>{
             <img src={url} height="400vh" alt="projimg" style={{marginTop:`auto`,}}/>
         </Col>
         </Row>
-        </Card>
+        </div>
         </Link>
     )
 }
@@ -80,6 +89,7 @@ ProjectCard.defaultProps = {
     tech:``,
     hack:``,
     link:``,
+    winner:``,
   }
 
 export default ProjectCard;
