@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <div style={{
-      background: `#2C2F33`,
+      background: `#E8D2A3`,
     }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div

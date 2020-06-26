@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <hr style={{ 
-      background: '#F3CA3E',
+      background: '#8BDDBD',
       height:'.3rem',
       position:'relative',
       marginTop: `0`,
