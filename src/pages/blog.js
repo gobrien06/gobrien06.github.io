@@ -48,12 +48,12 @@ const Blog = () => {
   return(
       <Layout>
       <SEO title="Blog" />
-      <div style={{
+      <div className="blog" style={{
         paddingTop:`10vh`,
         paddingBottom:`5vh`,
         color:`black`,
       }}>
-      <h1 class="blog">What I've Written. <hr width="5%"/></h1>
+      <h1>What I've Written. <hr width="5%"/></h1>
         <br/>
         <div style={{overflowX:'scroll'}}>
         {addPosts()}

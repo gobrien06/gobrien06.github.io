@@ -4,27 +4,32 @@
     margin-left:4.3rem;
     color:White;
     font-size:4rem;
-    position:absolute;
 }
-
+.vertical{
+    border-left: 0.1rem solid white; 
+    position:absolute;
+    left:50%;
+    height:300vh;
+}
+/*
 .blog h1:nth-child(1){
     color:transparent;
-    -webkit-text-stroke:0.2rem #A3D7E8;
+    -webkit-text-stroke:0.1rem #A3D7E8;
 }
 
 .blog h1:nth-child(2){
     color:#A3D7E8;
-    animation: wave 4s linear infinite;
+    animation: wave 5s linear infinite;
 }
 
 @keyframes wave{
     0%,100%{
-        clip-path: 
-        polygon(1% 47%, 12% 39%, 24% 39%, 33% 43%, 41% 48%, 55% 53%, 69% 55%, 79% 52%, 94% 41%, 100% 34%, 100% 100%, 1% 100%);
+        clip-path: polygon(0 42%, 13% 48%, 26% 55%, 41% 64%, 56% 65%, 69% 58%, 84% 45%, 100% 38%, 100% 100%, 0% 100%);
     }
     50%{
         clip-path:
-        polygon(0% 63%, 14% 57%, 25% 50%, 40% 42%, 56% 40%, 71% 44%, 84% 50%, 100% 60%, 100% 100%, 0% 100%);
+        polygon(0 63%, 14% 57%, 25% 50%, 40% 42%, 56% 40%, 71% 44%, 84% 50%, 100% 60%, 100% 100%, 0% 100%);
 
     }
 }
+*/

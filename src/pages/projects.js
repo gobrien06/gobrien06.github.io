@@ -12,8 +12,8 @@ const Projects = () => {
 
   const addProjects = () =>{
     //console.log(JSONData);
-     items = JSONData.map((element) => 
-      <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image[0]} tech = {element.tech} year={element.year} hack={element.hackathon} /> )
+     items = JSONData.map((element,index) => 
+      <ProjectCard title={element.name} summary={element.role} slug = {element.slug} url={element.image[0]} tech = {element.tech} year={element.year} hack={element.hackathon} index={index} winner={element.winner}/> )
       items.reverse();
       return items;
     }
@@ -27,12 +27,26 @@ const Projects = () => {
         color:`black`,
       }} class="blog">
       <h1>What I've Done.</h1>
-      <h1>What I've Done.</h1>
         <br/>
-        <div style={{marginTop:`13vh`}}>
+        <div style={{marginTop:`5vh`}}>
+        <div className="vertical"/>
+        <Particles height="320vh" style={{position:`absolute`, maxWidth:'99%', }}
+     params={{
+      "particles": {
+        "number": {
+            "value": 45
+        },
+        "size": {
+            "value": 2
+        },
+    },
+      }
+      }
+      />
         {addProjects()}
         </div>
         </div>
+        
     </Layout>
   )
 }
