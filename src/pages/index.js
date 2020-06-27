@@ -2,70 +2,78 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import {Link} from 'gatsby';
-import {Row, Col, Button} from 'reactstrap';
+import {Row, Col, Button, Media} from 'reactstrap';
 import ContentCard from '../components/contentcard/contentcard';
 import Particles from 'react-particles-js';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import './index.css';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Row style={{
       padding:`10vh`,
-      paddingTop:`20vh`,
-      paddingBottom:`30vh`,
+      paddingTop:`15vh`,
+      paddingBottom:`5vh`,
+      overflowX: `hidden`,
     }}>
-      <Particles height="60%" style={{position:`absolute`,}}
+       <Particles height="65vh" style={{position:`absolute`, maxWidth:'99%', }}
      params={{
       "particles": {
         "number": {
-            "value": 15
+            "value": 10
         },
         "size": {
             "value": 2
         },
     },
-      "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse",
-            }
-        }
-        }
       }
       }
       />
         <h1 style={{
-          fontWeight:`600`,
+          fontWeight:`700`,
           fontSize:`6rem`,
           marginTop:`10vh`,
           color:`white`,
-          marginLeft:`10vh`,
+          marginLeft:`4vh`,
+          zIndex:`1`,
         }}>
           Gabrielle O'Brien
         </h1>
         <h4 style={{
           color:`white`,
+          zIndex:`1`,
           fontWeight:`200`,
           fontSize:`2rem`,
-          marginLeft:`12vh`,
+          marginLeft:`6vh`,
         }}>
        Software Engineer. Designer. Student.
         </h4>
         <h4 style={{
-          color:`#8BDDBD`,
+          color:`#A3D7E8`,
           fontWeight:`300`,
-          fontSize:`1.5rem`,
-          marginLeft:`12vh`,
+          fontSize:`1.1rem`,
+          marginLeft:`6vh`,
+          zIndex:`1`,
+
         }}>
       JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git, Gatsby
         </h4>
+        
+        <img height="70%" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`}}
+        src = "/images/islandimg.png"
+      />
+  
+
       
     </Row>
 
-  
+    <section>
+        <div className="wave wave1"/>
+        <div className="wave wave2"/>
+        <div className="wave wave3"/>
+        </section>
+        
     
   </Layout>
 

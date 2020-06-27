@@ -1,0 +1,30 @@
+.blog h1{
+    font-weight:700;
+    text-align:left;
+    margin-left:4.3rem;
+    color:White;
+    font-size:4rem;
+    position:absolute;
+}
+
+.blog h1:nth-child(1){
+    color:transparent;
+    -webkit-text-stroke:0.2rem #A3D7E8;
+}
+
+.blog h1:nth-child(2){
+    color:#A3D7E8;
+    animation: wave 4s linear infinite;
+}
+
+@keyframes wave{
+    0%,100%{
+        clip-path: 
+        polygon(1% 47%, 12% 39%, 24% 39%, 33% 43%, 41% 48%, 55% 53%, 69% 55%, 79% 52%, 94% 41%, 100% 34%, 100% 100%, 1% 100%);
+    }
+    50%{
+        clip-path:
+        polygon(0% 63%, 14% 57%, 25% 50%, 40% 42%, 56% 40%, 71% 44%, 84% 50%, 100% 60%, 100% 100%, 0% 100%);
+
+    }
+}

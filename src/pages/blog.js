@@ -51,15 +51,9 @@ const Blog = () => {
       <div style={{
         paddingTop:`10vh`,
         paddingBottom:`5vh`,
-        background:`white`,
         color:`black`,
       }}>
-      <h1 style={{
-            fontWeight:`500`,
-            textAlign:`left`,
-            marginLeft:`4.3rem`,
-            fontSize:`3rem`,
-        }}>What I've Written. <hr width="5%"/></h1>
+      <h1 class="blog">What I've Written. <hr width="5%"/></h1>
         <br/>
         <div style={{overflowX:'scroll'}}>
         {addPosts()}

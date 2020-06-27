@@ -4,7 +4,6 @@ import React from "react"
 import './iconstyles.css';
 
 const Header = ({ siteTitle }) => (
-
   <header
     style={{
       //boxShadow: `0.5vh 0.5vh 0.8vh #000`,
@@ -12,7 +11,7 @@ const Header = ({ siteTitle }) => (
   
       width:`100%`,
       position:`fixed`,
-      zIndex:`10`,
+      zIndex:`1001`,
       height:`10vh`,
   
   
@@ -33,14 +32,14 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
         >
-          <img src="/images/websiteicon.svg" height="45vh" alt="siteicon" className="topicon"/>
+          <img src="/images/palmcion.png" height="50vh" alt="siteicon" className="topicon"/>
         </Link>
 
-        <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,}}>
+        <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,  marginTop:`-1.3rem`,}}>
         <Link
           to="/projects"
           style={{
-            color: `gray`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.8vh`,
           }}
@@ -50,7 +49,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/blog"
           style={{
-            color: `gray`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.8vh`,
           }}
@@ -60,14 +59,38 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/contact"
           style={{
-            color: `gray`,
+            color: `white`,
             textDecoration: `none`,
             marginLeft:`1.8vh`,
           }}
         >
           Contact
         </Link>
-    
+        <a
+          href="https://github.com/gobrien06"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            marginLeft:`1.5vh`,
+          }}
+        >
+          <img src="/images/GitHub-Mark-Light-64px.png" height="25vh" style={{ 
+          marginTop:`1rem`,
+          zIndex:`10`,
+          marginLeft:`1.3vh`,
+         }} alt="githubicon"/>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gabrielle-o-580986174/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            marginLeft:`2vh`,
+            zIndex:`20`,
+          }}
+        >
+          <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="27.4vh" style={{ marginTop:`1rem`,}} alt="linkedinicon"/>
+        </a>
       </h5>
     </div>
   </header>

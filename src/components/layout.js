@@ -25,48 +25,17 @@ const Layout = ({ children }) => {
 
   return (
     <div style={{
-      background: `#E8D2A3`,
+      background: `#2C2F33`,
     }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
-          padding: `0 0rem 0.5rem`,
+          padding: `0 0rem 0.5rem`, 
         }}
       >
         <main>{children}</main>
-        <footer style={{
-          color:`white`,
-          textAlign:`right`,
-          margin:`0`,
-          paddingRight:`4vh`,
-        }}>
-     
-          <a
-          href="https://github.com/gobrien06"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            marginLeft:`1.5vh`,
-          }}
-        >
-          <img src="/images/GitHub-Mark-Light-64px.png" height="25vh" style={{ 
-          marginTop:`1rem`,
-          zIndex:`10`,
-         }} alt="githubicon"/>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/gabrielle-o-580986174/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            marginLeft:`1.5vh`,
-            zIndex:`20`,
-          }}
-        >
-          <img src="/images/210-2103667_linkedin-transparent-tiny-linkedin-icon-white-png.png" height="27.4vh" style={{ marginTop:`1rem`,}} alt="linkedinicon"/>
-        </a>
-        </footer>
+       
       </div>
     </div>
   )

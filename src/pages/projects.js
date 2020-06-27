@@ -3,9 +3,9 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ProjectCard from '../components/projectcard/projectcard';
 import Particles from 'react-particles-js';
-import JSONData from "../content/projdata.json"
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import JSONData from "../content/projdata.json";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./projects.css";
 
 const Projects = () => {
   let items = [];
@@ -24,40 +24,15 @@ const Projects = () => {
       <div style={{
         paddingTop:`10vh`,
         paddingBottom:`5vh`,
-        background:`white`,
         color:`black`,
-      }}>
-      <h1 style={{
-            fontWeight:`500`,
-            textAlign:`left`,
-            marginLeft:`4.3rem`,
-            fontSize:`3rem`,
-        }}>What I've Done.<hr width="5%"/></h1>
+      }} class="blog">
+      <h1>What I've Done.</h1>
+      <h1>What I've Done.</h1>
         <br/>
+        <div style={{marginTop:`13vh`}}>
         {addProjects()}
         </div>
-        
-        <Particles height="15vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}
-      params={{
-        "particles": {
-          "number": {
-              "value": 15
-          },
-          "size": {
-              "value": 2
-          },
-      },
-        "interactivity": {
-          "events": {
-              "onhover": {
-                  "enable": true,
-                  "mode": "repulse",
-              }
-          }
-          }
-        }
-        }
-        />
+        </div>
     </Layout>
   )
 }
