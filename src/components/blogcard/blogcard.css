@@ -1,23 +1,24 @@
 .blogcard{
-    box-shadow: 0.5vh 0.5vh 1vh gray;
+    box-shadow: 0.5vh 0.5vh 1vh black;
     max-height:65vh;
     max-width:40%;
     margin-bottom:10vh;
     font-family:"Open Sans";
-    color:black;
     margin-left:5%;
     overflow:hidden;
-    border-radius:0.5vh;
+    border-radius:10px;
     text-Decoration: none;
     padding-bottom:2vh;
+    border:none;
+    -webkit-transition:all 0.2s ease-in;
 
 }
 
 .blogcard:hover{
     -webkit-transform:scale(1.02);
-    -webkit-transition:all 0.05s ease-out;
-    -moz-transition:all 0.05s ease-out;
-    transition:all 0.05s ease-out;
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
 }
 
 @media only screen and (max-width:800px){

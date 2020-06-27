@@ -14,13 +14,26 @@ const ProjInfoPage = ({pageContext}) => {
         <SEO title={pageContext.name} />
         <Row className="mobilescale" style={{
             padding:`15vh`,
-            backgroundColor:`#FFF`,
-            paddingBottom:0,
+            paddingBottom:`10vh`,
+            paddingTop:`10vh`,
             paddingRight:`28vh`,
         }}>
-        <Col lg="6">
+             <Particles height="45vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}
+      params={{
+        "particles": {
+          "number": {
+              "value": 5
+          },
+          "size": {
+              "value": 2
+          },
+      },
+        }
+        }
+        />
+        <Col lg="6" className="blog">
         <h1 style={{
-            fontWeight:`600`,
+            fontWeight:`700`,
             fontSize:`5rem`,
             marginLeft: `1.55vh`, 
         }}>
@@ -29,8 +42,8 @@ const ProjInfoPage = ({pageContext}) => {
         <h4 style={{
          marginLeft: `3vh`, 
          fontSize:`2rem`,
-         fontWeight:`400`,
-         color:`grey`,
+         fontWeight:`500`,
+         color:`white`,
         }}>
             {pageContext.hackathon}
         </h4>
@@ -38,20 +51,20 @@ const ProjInfoPage = ({pageContext}) => {
          marginLeft: `3vh`, 
   
          fontWeight:`400`,
-         color:`grey`,
+         color:`#A3D7E8`,
         }}>
         {secondHeader}
         </h5>
 
         <div>
         <a href={pageContext.link} style={{ display: `inline`,}}>
-        <div style={{backgroundColor:`#F3CA3E`, marginLeft:`3vh`, padding:`0.5vh`, width:`15vh`, borderRadius:50, textAlign:`center`, marginTop:`1.5vh`, display:`inline-block`}}>
+        <div style={{backgroundColor:`#8BDDBD`, marginLeft:`3vh`, padding:`0.5vh`, width:`15vh`, borderRadius:50, textAlign:`center`, marginTop:`1.5vh`, display:`inline-block`}}>
 
         <h5 style={{
-        fontWeight:'400 ',
+        fontWeight:'500 ',
         display:`inline`,
      
-         color:`white`,
+         color:`#2C2F33`,
         }}>
             Link
         </h5>
@@ -65,7 +78,7 @@ const ProjInfoPage = ({pageContext}) => {
             textDecoration: `none`,
           }}
         >
-          <img src="/images/GitHub-Mark-64px.png" height="28vh" style={{ 
+          <img src="/images/GitHub-Mark-Light-64px.png" height="28vh" style={{ 
                 marginTop:`2vh`,
                 marginLeft:`2vh`,
          }} alt="githubicon"/>
@@ -74,7 +87,7 @@ const ProjInfoPage = ({pageContext}) => {
         </Col>
         <Col lg="6">
         <h5 style={{
-            color:`gray`,
+            color:`white`,
             fontWeight:`300`,
         }}><br/><br/>
             {pageContext.description}
@@ -116,28 +129,13 @@ const ProjInfoPage = ({pageContext}) => {
         {pageContext.duties}
         </h5>
         </Col>
+ 
         </Row>
-        <Particles height="15vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}
-      params={{
-        "particles": {
-          "number": {
-              "value": 15
-          },
-          "size": {
-              "value": 2
-          },
-      },
-        "interactivity": {
-          "events": {
-              "onhover": {
-                  "enable": true,
-                  "mode": "repulse",
-              }
-          }
-          }
-        }
-        }
-        />
+        <section style={{height:`8vh`,}}>
+        <div className="wave wave1"/>
+        <div className="wave wave2"/>
+        <div className="wave wave3"/>
+        </section>
         </Layout>
     )
 }

@@ -50,7 +50,7 @@ const ContactCard=()=>{
             action="https://formspree.io/mzbgvyqr"
             method="POST">
                 <FormGroup>
-                <Label for="exampleEmail">Email</Label><br/>
+                <Label for="exampleEmail" style={{fontWeight:`600`, fontSize:`1.3rem`,}}>Email</Label><br/>
                 <input style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
@@ -62,7 +62,7 @@ const ContactCard=()=>{
                 </FormGroup>
 
                 <FormGroup>
-                <Label for="exampleEmail">Message</Label><br/>
+                <Label for="exampleEmail" style={{fontWeight:`600`,fontSize:`1.3rem`,}}>Message</Label><br/>
                 <textarea style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
@@ -76,9 +76,11 @@ const ContactCard=()=>{
                 }}type="text" name="message" id="message" placeholder="Enter your message." onChange={(e) => handleChange(e)}/>               
                 </FormGroup>
                 <a><Button type="submit" style={{
-                     background:`#F3CA3E`,
+                     background:`#8BDDBD`,
                      marginLeft:`auto`,
-                     border:`#F3CA3E`,
+                     color:`#2C2F33`,
+                     fontWeight:`600`,
+                     border:`#2C2F33`,
                 }}>Submit</Button></a>
                 <br/> <br/>
                 {feedback}
@@ -86,5 +88,6 @@ const ContactCard=()=>{
         </Card>
     )
 }
+//consider color A3D7E8 (blue) for the button as well
 
 export default ContactCard;

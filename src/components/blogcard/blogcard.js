@@ -28,7 +28,7 @@ const BlogCard = ({title, image, date, tags, url})=>{
                     fontWeight:`500`,
                     margin:`0`,
                     fontSize:`1.5rem`,
-                    color:`black`,
+                    color:`white`,
                 }}>
                 {title}
                 </h4>
@@ -38,7 +38,7 @@ const BlogCard = ({title, image, date, tags, url})=>{
                 fontWeight:`100`,
                 textAlign:`left`,
                 fontSize:`1rem`,
-                color:`grey`,
+                color:`#A3D7E8`,
                 }}>{date}</h2>
         </Row>
         </Col>

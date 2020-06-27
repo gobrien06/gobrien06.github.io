@@ -9,10 +9,12 @@
     padding:9vh;
     padding-top:8vh;
     padding-left:5vh;
+    border: none;
     font-family:"Open Sans";
     background-color: #2C2F33 !important;
     border-radius:10px !important;
     color:#FFFF;
+    z-index:1;
 }
 img{
     border-radius:10px;

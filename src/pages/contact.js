@@ -9,41 +9,31 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <div className="contain" style={{
+    <div className="contain" className="blog" style={{
       paddingTop:`10vh`,
       
     }}>
-     <h2 style={{
-      fontWeight:`500`,
-      textAlign:`left`,
-      marginLeft:`4.3rem`,
-      fontSize:`3rem`,
-      color:`white`,
-      marginBottom:`2rem`,
-      }}>Contact Me.</h2>
+     <h1>Contact Me.</h1>
   </div>  
     <Particles height="50vh" style={{position:`absolute`, maxWidth:'99%', }}
      params={{
       "particles": {
         "number": {
-            "value": 30
+            "value": 15
         },
         "size": {
             "value": 2
         },
     },
-      "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse",
-            }
-        }
-        }
       }
       }
       />
      <ContactCard />
+     <section style={{height:`10vh`,marginTop:`-15vh`, zIndex:`0`,}}>
+        <div className="wave wave1"/>
+        <div className="wave wave2"/>
+        <div className="wave wave3"/>
+        </section>
   </Layout>
 
 )

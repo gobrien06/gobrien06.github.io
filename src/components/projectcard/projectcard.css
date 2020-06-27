@@ -19,7 +19,7 @@
 }
 
 .projcard:hover{
-    -webkit-transform:scale(1.1);
+    -webkit-transform:scale(1.02);
     -webkit-transition:all 0.2s ease-out;
     -moz-transition:all 0.2s ease-out;
     transition:all 0.2s ease-out;

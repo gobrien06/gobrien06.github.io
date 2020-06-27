@@ -19,6 +19,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                  padding:`10vh`,
                  paddingRight:`15vh`,
                  paddingBottom:`5vh`,
+                 paddingTop:`5vh`,
                  zIndex:`0`,
          }}>
  
@@ -78,7 +79,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              paddingBottom:`3%`,
              zIndex:`100`,
          }}>
-             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`70vh` ,marginLeft:`-9vh`,}}/>
+             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`60vh` ,marginLeft:`-9vh`,}}/>
          </Col>
          </Row>
         :
@@ -88,12 +89,13 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
             paddingBottom:`3%`,
             zIndex:`100`,
         }}>
-            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`70vh`, marginLeft:`25vh`,}}/>
+            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`60vh`, marginLeft:`30vh`, right:`0`,}}/>
         </Col>
         <Col lg="7" className = "textproj" style={{
                 padding:`10vh`,
                 paddingLeft:`30vh`,
                 paddingBottom:`5vh`,
+                paddingTop:`5vh`,
                 zIndex:`0`
         }}>
 
@@ -108,7 +110,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                 fontWeight:`600`,
                 margin:`0`,
                 marginLeft:`3`,
-                fontSize:`2.5rem`,
+                fontSize:`3rem`,
                 color:`white`,
             }}>
             {title}

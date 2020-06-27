@@ -51,9 +51,8 @@ const Blog = () => {
       <div className="blog" style={{
         paddingTop:`10vh`,
         paddingBottom:`5vh`,
-        color:`black`,
       }}>
-      <h1>What I've Written. <hr width="5%"/></h1>
+      <h1>What I've Written.</h1>
         <br/>
         <div style={{overflowX:'scroll'}}>
         {addPosts()}
@@ -70,14 +69,6 @@ const Blog = () => {
               "value": 2
           },
       },
-        "interactivity": {
-          "events": {
-              "onhover": {
-                  "enable": true,
-                  "mode": "repulse",
-              }
-          }
-          }
         }
         }
         />
