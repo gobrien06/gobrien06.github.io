@@ -74,7 +74,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              </h3> : null }
              <img height="45%" src="/images/nodetailpalmside.png" style={{position:`absolute`, right:`0`, top:`0`, zIndex:`-1`}} alt="palmleaves"/>
          </Col>
-         <Col lg="5" style={{
+         <Col lg="5" className="mobiletree" style={{
              paddingTop:`3%`,
              paddingBottom:`3%`,
              zIndex:`100`,
@@ -84,11 +84,12 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
          </Row>
         :
         <Row>
-        <Col lg="5" style={{
-            paddingTop:`3%`,
-            paddingBottom:`3%`,
-            zIndex:`100`,
-        }}>
+        <Col lg="5" className="mobiletree" 
+            style={{
+                paddingTop:`3%`,
+                paddingBottom:`3%`,
+                zIndex:`100`,
+            }}>
             <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`60vh`, marginLeft:`30vh`, right:`0`, }}/>
         </Col>
         <Col lg="7" className = "textproj" style={{

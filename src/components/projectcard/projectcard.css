@@ -36,10 +36,10 @@ a:hover{
 }
 
 @media only screen and (max-width:800px){
-    .projcard{
-        max-height:30vh;
+    .textproj{
+        padding:10vh !important;
     }
     .projcard img{
-      visibility:hidden;
+        max-height:200px;
     }
   }

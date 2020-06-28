@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Row style={{
       padding:`10vh`,
       paddingTop:`15vh`,
-      paddingBottom:`5vh`,
+      paddingBottom:`3%`,
       overflowX: `hidden`,
     }}>
        <Particles height="65vh" style={{position:`absolute`, maxWidth:'99%', }}
@@ -60,7 +60,7 @@ const IndexPage = () => (
       JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git, Gatsby
         </h4>
         
-        <img height="70%" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`}}
+        <img className="mobiletree" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`, maxWidth:`38%`, height:`auto`}}
         src = "/images/islandimg.png"
       />
   

@@ -29,16 +29,6 @@ const Blog = () => {
     }
 
   const addPosts = () =>{
-    if(!items)
-        return <p style={{
-            textAlign:`left`,
-            marginLeft:`4.3rem`,
-            fontSize:`1rem`,
-        }}
-        >
-        Looks like there's no posts! Please check again later.
-        </p>
-
     return (items.map((element) => 
       <BlogCard image={element.thumbnail} title={element.title} tags={element.categories} date={element.pubDate} url={element.link}/>
      ))
@@ -54,8 +44,18 @@ const Blog = () => {
         paddingBottom:`20vh`,
       }}>
       <h1>What I've Written.</h1>
-        {addPosts()}
-        </div>
+        {items ? addPosts() : 
+        <p style={{
+          textAlign:`left`,
+          marginLeft:`4.3rem`,
+          fontSize:`1.5rem`,
+          color:`white`,
+      }}
+      >
+      Looks like there's no posts! Please check again later.
+      </p>
+      }
+      </div>
 
       <section>
         <div className="wave wave1"/>
