@@ -47,7 +47,7 @@ const IndexPage = () => (
           fontSize:`2rem`,
           marginLeft:`6vh`,
         }}>
-       Software Engineer. Designer. Student.
+       Software Engineer. Computer Science Student.
         </h4>
         <h4 style={{
           color:`#A3D7E8`,

@@ -131,10 +131,10 @@ const ProjInfoPage = ({pageContext}) => {
         </Col>
  
         </Row>
-        <section style={{height:`8vh`,}}>
-        <div className="wave wave1"/>
-        <div className="wave wave2"/>
-        <div className="wave wave3"/>
+        <section style={{height:`2vh`,}}>
+        <div className="waveG wave1"/>
+        <div className="waveG wave2"/>
+        <div className="waveG wave3"/>
         </section>
         </Layout>
     )

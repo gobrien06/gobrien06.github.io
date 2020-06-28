@@ -8,6 +8,7 @@ import BlogCard from '../components/blogcard/blogcard';
 
 const Blog = () => {
     const [items, setItems] = React.useState();
+
     const getData = () => {
         let items;
         const RSSFeed = "https://medium.com/feed/@gobrien06";
@@ -50,28 +51,17 @@ const Blog = () => {
       <SEO title="Blog" />
       <div className="blog" style={{
         paddingTop:`10vh`,
-        paddingBottom:`5vh`,
+        paddingBottom:`20vh`,
       }}>
       <h1>What I've Written.</h1>
-        <br/>
-        <div style={{overflowX:'scroll'}}>
         {addPosts()}
         </div>
-        </div>
-        
-        <Particles style={{position:`absolute`, maxHeight:`15vh`, maxWidth:'85%', float:`left`,}}
-      params={{
-        "particles": {
-          "number": {
-              "value": 12 
-          },
-          "size": {
-              "value": 2
-          },
-      },
-        }
-        }
-        />
+
+      <section>
+        <div className="wave wave1"/>
+        <div className="wave wave2"/>
+        <div className="wave wave3"/>
+      </section>
     </Layout>
   )
 }

@@ -72,7 +72,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              color:`white`,}}>
              ★ First Place
              </h3> : null }
-             <img height="45%" src="/images/nodetailpalmside.png" style={{position:`absolute`, right:`0`, top:`0`}} alt="palmleaves"/>
+             <img height="45%" src="/images/nodetailpalmside.png" style={{position:`absolute`, right:`0`, top:`0`, zIndex:`-1`}} alt="palmleaves"/>
          </Col>
          <Col lg="5" style={{
              paddingTop:`3%`,
@@ -89,7 +89,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
             paddingBottom:`3%`,
             zIndex:`100`,
         }}>
-            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`60vh`, marginLeft:`30vh`, right:`0`,}}/>
+            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`60vh`, marginLeft:`30vh`, right:`0`, }}/>
         </Col>
         <Col lg="7" className = "textproj" style={{
                 padding:`10vh`,

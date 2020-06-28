@@ -1,21 +1,14 @@
 .blogcard{
-    box-shadow: 0.5vh 0.5vh 1vh black;
-    max-height:65vh;
-    max-width:40%;
-    margin-bottom:10vh;
-    font-family:"Open Sans";
-    margin-left:5%;
+    max-width:70%;
+    margin-left:1%;
     overflow:hidden;
-    border-radius:10px;
     text-Decoration: none;
-    padding-bottom:2vh;
-    border:none;
     -webkit-transition:all 0.2s ease-in;
-
+    background-color:#2C2F33;
 }
 
 .blogcard:hover{
-    -webkit-transform:scale(1.02);
+    -webkit-transform:scale(1.01);
     -webkit-transition:all 0.2s ease-out;
     -moz-transition:all 0.2s ease-out;
     transition:all 0.2s ease-out;
