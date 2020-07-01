@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
+    <div style={{height:`100vh`,}}>
     <div className="contain" className="blog" style={{
       paddingTop:`10vh`,
-      
     }}>
      <h1>Contact Me.</h1>
   </div>  
@@ -29,11 +29,14 @@ const ContactPage = () => (
       }
       />
      <ContactCard />
-     <section style={{height:`10vh`,marginTop:`-15vh`, zIndex:`0`,}}>
+     </div>
+     <br/>
+     <section>
         <div className="wave wave1"/>
         <div className="wave wave2"/>
         <div className="wave wave3"/>
         </section>
+        
   </Layout>
 
 )

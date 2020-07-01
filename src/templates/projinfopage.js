@@ -10,12 +10,13 @@ import ImageCarousel from '../components/imagecarousel';
 const ProjInfoPage = ({pageContext}) => {
     const secondHeader = pageContext.year + ' · ' + pageContext.devtime;
     return(
-        <Layout>
+        <Layout style={{height:`100vh`,}}>
         <SEO title={pageContext.name} />
         <Row className="mobilescale" style={{
             padding:`15vh`,
             paddingBottom:`10vh`,
             paddingTop:`10vh`,
+
             paddingRight:`28vh`,
         }}>
              <Particles height="45vh" style={{position:`absolute`, maxWidth:'85%', float:`left`,}}
@@ -131,7 +132,7 @@ const ProjInfoPage = ({pageContext}) => {
         </Col>
  
         </Row>
-        <section style={{height:`2vh`,}}>
+        <section>
         <div className="waveG wave1"/>
         <div className="waveG wave2"/>
         <div className="waveG wave3"/>
