@@ -23,14 +23,14 @@ const Projects = () => {
       <SEO title="Projects" />
       <div style={{
         paddingTop:`10vh`,
-        paddingBottom:`5vh`,
+       paddingBottom:`10vh`, 
         color:`black`,
       }} class="blog">
       <h1>What I've Done.</h1>
         <br/>
         <div style={{marginTop:`0vh`}}>
         <div className="vertical"/>
-        <Particles height="310vh" style={{position:`absolute`, maxWidth:'99%', }}
+        <Particles height="300vh" style={{position:`absolute`, maxWidth:'99%', }}
      params={{
       "particles": {
         "number": {

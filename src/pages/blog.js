@@ -41,7 +41,8 @@ const Blog = () => {
       <SEO title="Blog" />
       <div className="blog" style={{
         paddingTop:`10vh`,
-        paddingBottom:`20vh`,
+        paddingBottom:`15vh`,
+        height:`100vh`,
       }}>
       <h1>What I've Written.</h1>
         {items ? addPosts() : 

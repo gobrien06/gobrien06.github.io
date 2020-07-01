@@ -12,12 +12,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Row style={{
-      padding:`10vh`,
-      paddingTop:`15vh`,
-      paddingBottom:`3%`,
-      overflowX: `hidden`,
+      paddingTop:`10vh`,
+      marginLeft:`15vh`,
+      paddingBottom:`10vh`,
+      overflow: `hidden`,
+      height:`100vh`,
+      display:`block`,
     }}>
-       <Particles height="65vh" style={{position:`absolute`, maxWidth:'99%', }}
+       <Particles height="65vh" style={{position:`absolute`, maxWidth:'98%', }}
      params={{
       "particles": {
         "number": {
@@ -34,8 +36,9 @@ const IndexPage = () => (
           fontWeight:`700`,
           fontSize:`6rem`,
           marginTop:`10vh`,
+          marginBottom:`0vh`,
           color:`white`,
-          marginLeft:`4vh`,
+
           zIndex:`1`,
         }}>
           Gabrielle O'Brien
@@ -43,9 +46,10 @@ const IndexPage = () => (
         <h4 style={{
           color:`white`,
           zIndex:`1`,
-          fontWeight:`200`,
+          fontWeight:`300`,
           fontSize:`2rem`,
-          marginLeft:`6vh`,
+          left:`0`,
+  
         }}>
        Software Engineer. Computer Science Student.
         </h4>
@@ -53,26 +57,21 @@ const IndexPage = () => (
           color:`#A3D7E8`,
           fontWeight:`300`,
           fontSize:`1.1rem`,
-          marginLeft:`6vh`,
-          zIndex:`1`,
 
+          zIndex:`1`,
         }}>
       JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git, Gatsby
         </h4>
-        
-        <img className="mobiletree" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`, maxWidth:`38%`, height:`auto`}}
-        src = "/images/islandimg.png"
-      />
-  
-
-      
     </Row>
 
     <section>
+      <img className="mobiletree" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`, maxWidth:`38%`, height:`auto`}}
+          src = "/images/islandimg.png"
+        />
         <div className="wave wave1"/>
         <div className="wave wave2"/>
         <div className="wave wave3"/>
-        </section>
+    </section>
         
     
   </Layout>

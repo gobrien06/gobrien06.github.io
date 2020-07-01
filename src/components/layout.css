@@ -6,7 +6,10 @@ html {
   background-color:#2C2F33;
   color:#FFF;
   overflow:hidden;
-  overflow-x: hidden;
+}
+
+body{
+
 }
 @media only screen and (max-width:800px){
   h1{

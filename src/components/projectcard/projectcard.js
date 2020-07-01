@@ -2,14 +2,19 @@ import React from "react";
 import {Row, Col} from 'reactstrap';
 import {Link} from "gatsby";
 import './projectcard.css';
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 
 //add winners star here
 const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index})=>{
     const link = '/projects/' + slug +'/';
     //console.log("link " + link);
-
+   
     return(
-        <Link className="contain"
+        <AniLink className="contain"
+        swipe 
+        direction={"left"}
+        duration={1.3}
         to={link}>
 
         <div className="projcard" style={{marginTop:`-3h`, marginLeft:`auto`,}}>
@@ -155,7 +160,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
         }
        
         </div>
-        </Link>
+        </AniLink>
     )
 }
 

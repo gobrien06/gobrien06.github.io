@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './iconstyles.css';
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -29,14 +30,20 @@ const Header = ({ siteTitle }) => (
         padding: `0.5rem`,
       }}
     >
-        <Link
+        <AniLink
+          paintDrip 
+          hex="#8BDDBD"
+          duration={1}
           to="/"
         >
           <img src="/images/palmcion.png" height="50vh" alt="siteicon" className="topicon"/>
-        </Link>
+        </AniLink>
 
         <h5 style={{ float:`right`, marginRight:`1.8vh`, display:`inline`, fontWeight:`300`,  marginTop:`-1.3rem`,}}>
-        <Link
+        <AniLink
+          swipe 
+          direction="left"
+          duration={1.3}
           to="/projects"
           style={{
             color: `white`,
@@ -45,8 +52,11 @@ const Header = ({ siteTitle }) => (
           }}
         >
           Projects
-        </Link>
-        <Link
+        </AniLink>
+        <AniLink
+          swipe 
+          direction="left"
+          duration={1.3}
           to="/blog"
           style={{
             color: `white`,
@@ -55,8 +65,11 @@ const Header = ({ siteTitle }) => (
           }}
         >
           Blog
-        </Link>
-        <Link
+        </AniLink>
+        <AniLink
+          swipe 
+          direction="left"
+          duration={1.3}
           to="/contact"
           style={{
             color: `white`,
@@ -65,7 +78,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           Contact
-        </Link>
+        </AniLink>
         <a
           href="https://github.com/gobrien06"
           style={{
