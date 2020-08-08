@@ -30,7 +30,6 @@ const ContactPage = () => (
       />
      <ContactCard />
      </div>
-     <br/>
      <section>
         <div className="wave wave1"/>
         <div className="wave wave2"/>

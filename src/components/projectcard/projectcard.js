@@ -21,17 +21,15 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
         {index%2 == 0 ? 
          <Row>
          <Col lg="7" className = "textproj" style={{
-                 padding:`10vh`,
-                 paddingRight:`15vh`,
-                 paddingBottom:`5vh`,
-                 paddingTop:`5vh`,
-                 zIndex:`0`,
+                paddingLeft:`5vh`,
+                paddingRight:`5vh`,
+                zIndex:`0`,
          }}>
- 
+            <div className="text">
              <h3 style={{
              fontWeight:`400`,
              textAlign:`left`,
-             fontSize:`1rem`,
+             fontSize:`1em`,
              color:`white`,
              }}>{year}</h3>
  
@@ -39,7 +37,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                  fontWeight:`600`,
                  margin:`0`,
                  marginLeft:`3`,
-                 fontSize:`2.5rem`,
+                 fontSize:`2.5em`,
                  color:`white`,
              }}>
              {title}
@@ -48,21 +46,21 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              <h3 style={{
              fontWeight:`500`,
              textAlign:`left`,
-             fontSize:`1.3rem`,
+             fontSize:`1.3em`,
              color:`white`,
              }}>{summary}</h3>
  
          <h3 style={{
              fontWeight:`400`,
              textAlign:`left`,
-             fontSize:`0.9rem`,
+             fontSize:`0.9em`,
              color:`#8BDDBD`,
              }}>{tech}</h3>
  
              <h3 style={{
              fontWeight:`500`,
              textAlign:`left`,
-             fontSize:`0.9rem`,
+             fontSize:`0.9em`,
              marginTop:`5vh`,
              color:`#A3D7E8`,
              }}>{hack}</h3>
@@ -72,19 +70,20 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              <h3 style = {{
              fontWeight:`500`,
              textAlign:`left`,
-             fontSize:`0.9rem`,
+             fontSize:`0.9em`,
              marginTop:`5vh`,
              color:`white`,}}>
              ★ First Place
-             </h3> : null }
-             <img height="45%" src="/images/nodetailpalmside.png" style={{position:`absolute`, right:`0`, top:`0`, zIndex:`-1`}} alt="palmleaves"/>
+             </h3> 
+             : null }
+             </div>
          </Col>
          <Col lg="5" className="mobiletree" style={{
              paddingTop:`3%`,
              paddingBottom:`3%`,
              zIndex:`100`,
          }}>
-             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`60vh` ,marginLeft:`-9vh`,}}/>
+             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`70vh` ,marginLeft:`-5vh`, position:`absolute`}}/>
          </Col>
          </Row>
         :
@@ -94,21 +93,20 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                 paddingTop:`3%`,
                 paddingBottom:`3%`,
                 zIndex:`100`,
+                alignContent:`right`,
             }}>
-            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`60vh`, marginLeft:`30vh`, right:`0`, }}/>
+            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`70vh`, position:`absolute`, right:`-5vh`,}}/>
         </Col>
         <Col lg="7" className = "textproj" style={{
-                padding:`10vh`,
-                paddingLeft:`30vh`,
-                paddingBottom:`5vh`,
-                paddingTop:`5vh`,
+                paddingLeft:`10vh`,
+                paddingRight:`5vh`,
                 zIndex:`0`
         }}>
-
+         <div className="text">
             <h3 style={{
             fontWeight:`400`,
             textAlign:`left`,
-            fontSize:`1rem`,
+            fontSize:`1em`,
             color:`white`,
             }}>{year}</h3>
 
@@ -116,7 +114,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                 fontWeight:`600`,
                 margin:`0`,
                 marginLeft:`3`,
-                fontSize:`3rem`,
+                fontSize:`3em`,
                 color:`white`,
             }}>
             {title}
@@ -125,21 +123,21 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
             <h3 style={{
             fontWeight:`500`,
             textAlign:`left`,
-            fontSize:`1.3rem`,
+            fontSize:`1.3em`,
             color:`white`,
             }}>{summary}</h3>
 
         <h3 style={{
             fontWeight:`400`,
             textAlign:`left`,
-            fontSize:`0.9rem`,
+            fontSize:`0.9em`,
             color:`#8BDDBD`,
             }}>{tech}</h3>
 
             <h3 style={{
             fontWeight:`500`,
             textAlign:`left`,
-            fontSize:`0.9rem`,
+            fontSize:`0.9em`,
             marginTop:`5vh`,
             color:`#A3D7E8`,
             }}>{hack}</h3>
@@ -149,12 +147,13 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
             <h3 style = {{
             fontWeight:`500`,
             textAlign:`left`,
-            fontSize:`0.9rem`,
+            fontSize:`0.9em`,
             marginTop:`5vh`,
             color:`white`,}}>
             ★ First Place
             </h3> : null }
-            <img height="45%" src="/images/nodetailpalmside.png" style={{position:`absolute`, left:`0`, top:`0`, transform:`scaleX(-1)`, zIndex:`-1`}} alt="palmleaves"/>
+            </div>
+           
         </Col>
         </Row>
         }

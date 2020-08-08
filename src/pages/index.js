@@ -34,7 +34,7 @@ const IndexPage = () => (
       />
         <h1 style={{
           fontWeight:`700`,
-          fontSize:`6rem`,
+          fontSize:`6em`,
           marginTop:`10vh`,
           marginBottom:`0vh`,
           color:`white`,
@@ -47,7 +47,7 @@ const IndexPage = () => (
           color:`white`,
           zIndex:`1`,
           fontWeight:`300`,
-          fontSize:`2rem`,
+          fontSize:`2em`,
           left:`0`,
   
         }}>
@@ -56,7 +56,7 @@ const IndexPage = () => (
         <h4 style={{
           color:`#A3D7E8`,
           fontWeight:`300`,
-          fontSize:`1.1rem`,
+          fontSize:`1.1em`,
 
           zIndex:`1`,
         }}>

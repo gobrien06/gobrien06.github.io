@@ -30,11 +30,11 @@ const Projects = () => {
         <br/>
         <div style={{marginTop:`0vh`}}>
         <div className="vertical"/>
-        <Particles height="300vh" style={{position:`absolute`, maxWidth:'99%', }}
+        <Particles height="90%" style={{position:`absolute`, maxWidth:'99%', }}
      params={{
       "particles": {
         "number": {
-            "value": 45
+            "value": 40
         },
         "size": {
             "value": 2

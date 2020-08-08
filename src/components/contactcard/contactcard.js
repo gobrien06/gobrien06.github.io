@@ -82,7 +82,7 @@ const ContactCard=()=>{
                      fontWeight:`600`,
                      border:`#2C2F33`,
                 }}>Submit</Button></a>
-                <br/> <br/>
+                <br/>
                 {feedback}
             </form>
         </Card>
