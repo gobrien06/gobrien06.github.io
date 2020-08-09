@@ -22,7 +22,7 @@ const BlogCard = ({title, image, date, tags, url})=>{
                 paddingLeft:`3vh`,
             }}>
                 <h4 style={{
-                    fontWeight:`500`,
+                    fontWeight:`300`,
                     fontSize:`1.5rem`,
                     color:`white`,
                     marginRight:`3vh`,

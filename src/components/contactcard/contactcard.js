@@ -50,7 +50,7 @@ const ContactCard=()=>{
             action="https://formspree.io/mzbgvyqr"
             method="POST">
                 <FormGroup>
-                <Label for="exampleEmail" style={{fontWeight:`600`, fontSize:`1.3rem`,}}>Email</Label><br/>
+                <Label for="exampleEmail" style={{fontWeight:`300`, fontSize:`1.3rem`,}}>Email</Label><br/>
                 <input style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
@@ -62,7 +62,7 @@ const ContactCard=()=>{
                 </FormGroup>
 
                 <FormGroup>
-                <Label for="exampleEmail" style={{fontWeight:`600`,fontSize:`1.3rem`,}}>Message</Label><br/>
+                <Label for="exampleEmail" style={{fontWeight:`300`,fontSize:`1.3rem`,}}>Message</Label><br/>
                 <textarea style={{
                     background:`#2C2F33`,
                     padding:`1vh`,
