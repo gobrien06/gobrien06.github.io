@@ -83,7 +83,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
              paddingBottom:`3%`,
              zIndex:`100`,
          }}>
-             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`70vh` ,marginLeft:`-5vh`, position:`absolute`}}/>
+             <img src={url}  alt="projimg" style={{marginTop:`auto`, maxHeight:`52vh` ,marginLeft:`-5vh`, position:`absolute`}}/>
          </Col>
          </Row>
         :
@@ -95,7 +95,7 @@ const ProjectCard = ({title, summary, url, year, tech, hack, slug, winner, index
                 zIndex:`100`,
                 alignContent:`right`,
             }}>
-            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`70vh`, position:`absolute`, right:`-5vh`,}}/>
+            <img src={url}  alt="projimg" style={{marginTop:`auto`, zIndex:`100`, maxHeight:`52vh`, position:`absolute`, right:`-5vh`,}}/>
         </Col>
         <Col lg="7" className = "textproj" style={{
                 paddingLeft:`10vh`,

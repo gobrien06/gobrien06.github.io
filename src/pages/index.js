@@ -11,14 +11,7 @@ import './index.css';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Row style={{
-      paddingTop:`10vh`,
-      marginLeft:`15vh`,
-      paddingBottom:`10vh`,
-      overflow: `hidden`,
-      height:`100vh`,
-      display:`block`,
-    }}>
+    <Row className="textmobileshift">
        <Particles height="65vh" style={{position:`absolute`, maxWidth:'98%', }}
      params={{
       "particles": {
@@ -38,7 +31,6 @@ const IndexPage = () => (
           marginTop:`10vh`,
           marginBottom:`0vh`,
           color:`white`,
-
           zIndex:`1`,
         }}>
           Gabrielle O'Brien
@@ -57,15 +49,14 @@ const IndexPage = () => (
           color:`#A3D7E8`,
           fontWeight:`300`,
           fontSize:`1.1em`,
-
-          zIndex:`1`,
+          zIndex:`10`,
         }}>
       JavaScript, ReactJS, React Native, NodeJS, ExpressJS, PostgreSQL, HTML5, CSS3, Git, Gatsby
         </h4>
     </Row>
 
     <section>
-      <img className="mobiletree" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`, maxWidth:`38%`, height:`auto`}}
+      <img className="mobiletree" style={{position:`absolute`, margin:`0`, zIndex: `0`, right:`0`, bottom:`0`, maxWidth:`38%`, height:`auto`,}}
           src = "/images/islandimg.png"
         />
         <div className="wave wave1"/>

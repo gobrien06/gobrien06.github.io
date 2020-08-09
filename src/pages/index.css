@@ -1,3 +1,13 @@
+.textmobileshift{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    margin-left:15vh;
+    overflow:hidden;
+    height:100vh;
+    display:block;
+    z-index:500;
+}
+
 section {
  position: relative;
  height:100%;
@@ -85,5 +95,8 @@ section .waveG.wave3{
 @media only screen and (max-width:1000px){
     .mobiletree{
         display:none;
+    }
+    .textmobileshift{
+        margin-left:5vh;
     }
 }
