@@ -46,7 +46,7 @@ const ContactCard=()=>{
  
     return(
         <Card className='neucard'>
-            <form   onSubmit={handleSubmit}
+            <form onSubmit={handleSubmit}
             action="https://formspree.io/mzbgvyqr"
             method="POST">
                 <FormGroup>

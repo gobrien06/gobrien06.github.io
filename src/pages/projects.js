@@ -34,7 +34,7 @@ const Projects = () => {
      params={{
       "particles": {
         "number": {
-            "value": 40
+            "value": 30
         },
         "size": {
             "value": 2
