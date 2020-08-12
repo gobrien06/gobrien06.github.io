@@ -1,5 +1,5 @@
 .projcard{
-    min-height:50vh;
+    min-height:60vh;
     max-width: 70%;
     margin-bottom:17vh;
     font-family:"Open Sans";
@@ -43,6 +43,8 @@ a:hover{
     .textproj{
         padding:10vh !important;
     }
-
+    .projcard{
+        max-width:90%;
+    }
   }
  
