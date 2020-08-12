@@ -2,7 +2,7 @@
     padding-top:10vh;
     padding-bottom:10vh;
     margin-left:15vh;
-    overflow:hidden;
+    overflow:visible;
     height:100vh;
     display:block;
     z-index:500;
