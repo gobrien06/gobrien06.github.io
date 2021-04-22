@@ -30,7 +30,7 @@ const Projects = () => {
         <br/>
         <div style={{marginTop:`0vh`}}>
         <div className="vertical"/>
-        <Particles height="90%" style={{position:`absolute`, maxWidth:'99%', }}
+        <Particles height="85%" style={{position:`absolute`, maxWidth:'99%', }}
      params={{
       "particles": {
         "number": {
