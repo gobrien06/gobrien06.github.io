@@ -94,7 +94,7 @@ const Header = ({ siteTitle }) => (
          }} alt="githubicon"/>
         </a>
         <a
-          href="https://www.linkedin.com/in/gabrielle-o-580986174/"
+          href="https://www.linkedin.com/in/gabrielle-o-brien-580986174/"
           style={{
             color: `white`,
             textDecoration: `none`,

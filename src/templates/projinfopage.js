@@ -123,20 +123,12 @@ const ProjInfoPage = ({pageContext}) => {
         </h4>
         </Col>
         <Col lg="6">
-    
-
         <h5 style={{   color:`gray`,
             fontWeight:`300`,}}>
         {pageContext.duties}
         </h5>
         </Col>
- 
         </Row>
-        <section>
-        <div className="waveG wave1"/>
-        <div className="waveG wave2"/>
-        <div className="waveG wave3"/>
-        </section>
         </Layout>
     )
 }
